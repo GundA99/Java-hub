@@ -87,7 +87,7 @@ public class Test_bank {
 				for (bankApplication a : act) {
 					if (a != null) {
 						if (a.getAccountNo() == accountno) {
-							System.out.println("Enter Account not to transfer");
+							System.out.println("Enter Account no to transfer");
 							acount = sc.nextInt();
 							check = true;
 							for (bankApplication b : act) {
