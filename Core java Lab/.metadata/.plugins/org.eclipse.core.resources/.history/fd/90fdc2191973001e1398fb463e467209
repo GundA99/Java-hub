@@ -1,0 +1,24 @@
+package Showroom_managment_System;
+import java.util.Date;
+public class vehicle {
+
+	private String chasisNO;
+	private Colors color;
+	private double BestPrice;
+	private Date manufactur;
+	private boolean isAvailable = true;
+	
+	public vehicle(String chasisNO, Colors color, double bestPrice, Date manufactur, boolean isAvailable) {
+		super();
+		this.chasisNO = chasisNO;
+		this.color = color;
+		BestPrice = bestPrice;
+		this.manufactur = manufactur;
+		this.isAvailable = isAvailable;
+	}
+	
+	
+	
+	
+	
+}

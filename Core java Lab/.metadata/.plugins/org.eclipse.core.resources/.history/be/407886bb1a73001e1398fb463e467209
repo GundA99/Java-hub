@@ -1,0 +1,59 @@
+package Showroom_managment_System;
+
+import java.util.Date;
+
+public class vehicle {
+
+	private String chasisNO;
+	private Color Vehiclecolor;
+	private double Price;
+	private Date manufacturDate;
+	private String company;
+	private boolean isAvailable = true;
+
+	public vehicle(String chasisNO, Color color, double bestPrice, Date manufactur) {
+		super();
+		this.chasisNO = chasisNO;
+		this.Vehiclecolor = color;
+		Price = bestPrice;
+		this.manufacturDate = manufactur;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this.chasisNO.equals(obj.getClass())) {
+			return true;
+		} else
+			return false;
+	}
+
+	public String getChasisNO() {
+		return chasisNO;
+	}
+
+	public void setChasisNO(String chasisNO) {
+		this.chasisNO = chasisNO;
+	}
+
+	public Color getColor() {
+		return color;
+	}
+
+	public double getBestPrice() {
+		return BestPrice;
+	}
+
+	public Date getManufactur() {
+		return manufactur;
+	}
+
+	public boolean isAvailable() {
+		return isAvailable;
+	}
+
+	@Override
+	public String toString() {
+		return "vehicle [chasisNO=" + chasisNO + ", color=" + color + ", BestPrice=" + BestPrice + ", manufactur="
+				+ manufactur + ", isAvailable=" + isAvailable + "]";
+	}
+}

@@ -1,0 +1,5 @@
+package Showroom_managment_System;
+
+public enum Color {
+		WHITE,BLACK,GRAY,SILVER
+}

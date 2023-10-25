@@ -1,0 +1,11 @@
+package Showroom_managment_System;
+
+public class vehicle {
+
+	private String chasisNO;
+	private color color; 
+	private double BestPrice;
+	private date
+	
+	
+}

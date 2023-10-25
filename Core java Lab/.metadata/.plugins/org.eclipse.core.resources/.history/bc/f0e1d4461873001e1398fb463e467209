@@ -1,0 +1,7 @@
+package Showroom_managment_System;
+
+public class Color {
+	
+		WHITE,BLACK,GRAY,SILVER
+	
+}
